@@ -42,24 +42,24 @@ public class Main {
     public static void main(String[] args) {
 
     // Instantiating the Student class by creating an instance of it
-     Student yoofiWoode = new Student(234, "Yoofi", "Nii T. Avenue", "Law", 20, "yoofiwoode@gmail.com");
+     Student yooku = new Student(234, "Yooku", "Cran Avenue", "Law", 23, "yooku@gmail.com");
 
      // Call the methods on the instance of the class
-        yoofiWoode.attendLecture("N001");
-        yoofiWoode.registerCourse();
-        yoofiWoode.writeExam();
+        yooku.attendLecture("N001");
+        yooku.registerCourse();
+        yooku.writeExam();
 
-     Lecturer russellLock = new Lecturer(42,"Russell Lock", "David Collett", 50, "Computing", "Software eng");
-     russellLock.teachCourse();
-     russellLock.supervises();
+     Lecturer timOwusu = new Lecturer(42,"Tim Owusu", "David Collett", 50, "Computing", "Software eng");
+        timOwusu.teachCourse();
+        timOwusu.supervises();
 
-     russellLock.setName("Andre Schappo");
-     russellLock.teachCourse();
+        timOwusu.setName("Ama Owusu");
+        timOwusu.teachCourse();
 
 
      // Course Class
 
-        Course computerSystems = new Course(202, "Computer Systems", "Fundamentals of Computer Systems", 30, "Daniel R");
+        Course computerSystems = new Course(202, "Computer Systems", "Fundamentals of Computer Systems", 30, "Daniella R");
 
         computerSystems.update();
         computerSystems.cancel();
